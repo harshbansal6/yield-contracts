@@ -7,7 +7,7 @@ on:
 jobs:
   remote-echidna:
     name: Run remote-echidna
-    uses: pods-finance/remote-echidna/.github/workflows/remote-echidna.yml@v2
+    uses: pods-finance/remote-echidna/.github/workflows/remote-echidna.yml@v3
     with:
       project: "https://github.com/crytic/not-so-smart-contracts.git"
       project_git_url: "https://github.com/crytic/not-so-smart-contracts.git"
